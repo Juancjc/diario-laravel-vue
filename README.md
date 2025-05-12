@@ -176,7 +176,11 @@ Este projeto é uma aplicação de diário simples, onde usuários autenticados 
        Route::delete('/notes/{note}', [NoteController::class, 'destroy'])->name('notes.destroy');
    });
    ```
-
+   ou 
+  ```php
+   use App\Http\Controllers\NoteController;
+        Route::resource('notes', NoteController::class);
+  ```
 ---
 
 
