@@ -69,7 +69,12 @@ Este projeto é uma aplicação de diário simples, onde usuários autenticados 
 
 ## 📁 Estrutura das Notas
 
-1. Crie a migration:
+1. Criar Model e Migration
+   ```bash
+   php artisan make:model Note -m
+   ```
+
+2. Crie a migration:
 
    Em database/migrations:
 
@@ -88,8 +93,7 @@ Este projeto é uma aplicação de diário simples, onde usuários autenticados 
    ```bash
    php artisan migrate
    ```
-
-2. Crie a Model Note:
+3. Crie a Model Note:
 
    Em app/Models/Note.php:
 
