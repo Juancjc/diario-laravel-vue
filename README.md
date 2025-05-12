@@ -112,7 +112,7 @@ Este projeto é uma aplicação de diário simples, onde usuários autenticados 
    }
    ```
 
-3. Crie o Controller:
+4. Crie o Controller:
 
    ```bash
    php artisan make:controller NoteController
