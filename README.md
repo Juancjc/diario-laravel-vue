@@ -55,6 +55,7 @@ Este projeto é uma aplicação de diário simples, onde usuários autenticados 
    composer require laravel/breeze --dev
    php artisan breeze:install vue
    npm install
+   npm install @inertiajs/inertia
    php artisan migrate
    ```
 
